@@ -1,0 +1,64 @@
+body{
+    /* selection du fond d'écran*/
+    background-image: url("../Images/Mondstadt.jpg");
+
+    /* centrage du fond d'écran + redimensionnement*/
+    background-position : center;
+    background-repeat : no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    height : 95%; /*juste ce qu'il faut pour ne pas pouvoir scroll*/    
+
+}
+nav{
+    
+    background-color:RGB(0,106,87,0.75);
+    max-width: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+a:visited
+{
+    color : unset;
+}
+
+#paimon
+{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;   
+    width: auto;
+    height: 50%;
+}
+#texte_inscription{
+text-align:center;
+background-color: #25DEBD;
+}
+
+head
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color : #25DEBD;
+}
+
+/*
+mise en place du pied de la page
+*/
+
+footer{
+    background-color : #006a57;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+#text_foot{
+    
+    color :  white;
+
+}
